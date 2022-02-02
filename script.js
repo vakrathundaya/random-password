@@ -30,5 +30,9 @@ function generatePassword() {
             if (uppercase) {
                 password = password + rando(final.uppercase = "ABCDEFGHIJKLMNOPRSTUVWXYZ")
             };
+
+            if (lowercase) {
+                password = password + rando(final.lowercase = "abcdefghijklmnopqrstuvwxyz")
+            }
         }
 }

@@ -42,5 +42,6 @@ function generatePassword() {
                 password = password + rando(final.specialchar = "!@#$%^&*(){}[]=<>/,.");
             }
             for (var i = password.length; i < length; i++) 
+            password = password + rando(rando(final).value);
         }
 }

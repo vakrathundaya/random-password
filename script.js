@@ -38,5 +38,8 @@ function generatePassword() {
             if (numbers) {
                 password = password + rando(final.numbers = "1234567890");
             }
+            if (specialchar) {
+                password = password + rando(final.specialchar = "!@#$%^&*(){}[]=<>/,.");
+            }
         }
 }

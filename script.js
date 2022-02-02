@@ -26,5 +26,9 @@ function generatePassword() {
             specialchar = confirm("Would you like to use special characters?");
 
             var final= {};
+
+            if (uppercase) {
+                password = password + rando(final.uppercase = "ABCDEFGHIJKLMNOPRSTUVWXYZ")
+            };
         }
 }

@@ -43,5 +43,6 @@ function generatePassword() {
             }
             for (var i = password.length; i < length; i++) 
             password = password + rando(rando(final).value);
+            return document.getElementById("password").value = randoSequence(password).join("");
         }
 }

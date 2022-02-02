@@ -24,5 +24,7 @@ function generatePassword() {
             lowercase = confirm("Would you like to use lowercase letters?");
             numbers = confirm("Would you like to use numbers?");
             specialchar = confirm("Would you like to use special characters?");
+
+            var final= {};
         }
 }

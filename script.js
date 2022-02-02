@@ -34,5 +34,9 @@ function generatePassword() {
             if (lowercase) {
                 password = password + rando(final.lowercase = "abcdefghijklmnopqrstuvwxyz")
             }
+
+            if (numbers) {
+                password = password + rando(final.numbers = "1234567890");
+            }
         }
 }

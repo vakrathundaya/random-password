@@ -15,5 +15,14 @@ function generatePassword() {
         var uppercase = confirm("Would you like to use uppercase letters?");
         var lowercase = confirm("Would you like to use lowercase letters?");
         var numbers = confirm("Would you like to use numbers?");
+     
         var specialchar = confirm("Would you like to use special characters?");
+
+        while (!uppercase && !lowercase && !numbers && !specialchar) {
+            alert("You must select at least one character type!");
+            uppercase = confirm("Would you like to use uppercase letters?");
+            lowercase = confirm("Would you like to use lowercase letters?");
+            numbers = confirm("Would you like to use numbers?");
+            specialchar = confirm("Would you like to use special characters?");
+        }
 }

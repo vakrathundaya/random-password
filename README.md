@@ -25,6 +25,9 @@ screenshot
 ![random](https://user-images.githubusercontent.com/94205464/146275481-65f49e85-c15e-4926-95eb-54de0c32ed12.jpeg)
 
 
+![randompass](https://user-images.githubusercontent.com/94205464/152259467-659387a2-9e75-479d-a6a4-b492a4139372.jpeg)
+
+
 Tasks completed
 ---------------
 When the generate button is clicked, a window prompt is generated asking the user for password criteria.
